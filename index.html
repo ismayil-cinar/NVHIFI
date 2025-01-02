@@ -1,48 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="nvhifi-poc team">
-    <title>Under Construction</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            font-size: 3em;
-            color: #ff6347;
-        }
-        p {
-            font-size: 1.5em;
-            margin-top: 20px;
-        }
-        .construction {
-            margin-top: 40px;
-        }
-        img {
-            width: 200px;
-            height: auto;
-        }
-        footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            color: #777;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Groep 4 - NVHIFI POC</title>
+  <style>
+    /* Basic Reset & Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header, nav, main, footer {
+      padding: 1rem;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      background-color: #f0f0f0;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin-top: 0.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #007bff;
+    }
+    /* Hero Section */
+    #hero {
+      background: #e6f7ff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+    }
+    #hero h1 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    #hero p {
+      font-size: 1.1rem;
+    }
+    /* Main Sections */
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      margin-bottom: 0.5rem;
+      font-size: 1.5rem;
+      color: #2c3e50;
+    }
+    p {
+      margin: 0.5rem 0;
+    }
+    /* Cards / Projects */
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .project-card {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 1rem;
+      flex: 1 1 200px;
+      min-width: 200px;
+      background: #fff;
+    }
+    .project-card h3 {
+      margin-bottom: 0.5rem;
+    }
+    /* Footer */
+    footer {
+      text-align: center;
+      background-color: #f0f0f0;
+      border-radius: 4px;
+      padding: 1rem 1rem;
+      margin-bottom: 1rem;
+    }
+    footer p {
+      margin: 0.5rem 0;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Page Under Construction</h1>
-    <p>We are working hard to bring you something amazing!</p>
-    <div class="construction">
-        <img src="https://via.placeholder.com/200?text=Under+Construction" alt="Under Construction">
-    </div>
-    <footer>
-        &copy; 2025 nvhifi-poc team. All rights reserved.
-    </footer>
+
+  <!-- HEADER SECTION -->
+  <header>
+    <h1>Groep 4 - NVHIFI POC</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#projects">Our Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <h1>Welcome to nvhifi-poc.be</h1>
+    <p>This website is created by Ali, Toon, and Ismayil from Erasmushogeschool Brussel.</p>
+  </section>
+
+  <!-- MAIN CONTENT AREA -->
+  <main>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About Groep 4</h2>
+      <p>
+        Groep 4 is a collaborative project by Ali, Toon, and Ismayil. Our main goal 
+        is to build and demonstrate an IT infrastructure proof of concept (POC). 
+        This project is part of our coursework at Erasmushogeschool Brussel.
+      </p>
+      <p>
+        Domain: <strong>nvhifi-poc.be</strong>
+      </p>
+      <p>
+        School: <strong>Erasmushogeschool Brussel</strong>
+      </p>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h2>Our Work</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Infrastructure Setup</h3>
+          <p>
+            An overview of how we planned and configured the IT infrastructure 
+            for the domain nvhifi-poc.be, including network, servers, and security measures.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Monitoring & Maintenance</h3>
+          <p>
+            A look into the tools and processes we use to monitor system health, 
+            manage updates, and ensure continuous operation.
+          </p>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions about our project or want to collaborate, feel free to reach out:</p>
+      <ul>
+        <li><a href="mailto:ali.kart@nvhifi-poc.be">ali.kart@nvhifi-poc.be</a></li>
+        <li><a href="mailto:toon.dehert@nvhifi-poc.be">toon.dehert@nvhifi-poc.be</a></li>
+        <li><a href="mailto:ismayil.cinar@nvhifi-poc.be">ismayil.cinar@nvhifi-poc.be</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- FOOTER SECTION -->
+  <footer>
+    <p>&copy; 2025 Groep 4, All rights reserved.</p>
+    <p>Created by Ali, Toon, and Ismayil at Erasmushogeschool Brussel.</p>
+  </footer>
+
 </body>
 </html>
